@@ -1,0 +1,35 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="128" y1="128" x2="896" y2="896" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171722"/>
+      <stop offset="1" stop-color="#0F0F14"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="286" y1="286" x2="738" y2="738" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8A7CFF"/>
+      <stop offset="1" stop-color="#00BCD4"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="420" y1="610" x2="604" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A497FF"/>
+      <stop offset="1" stop-color="#4ED9EC"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="64" y="64" width="896" height="896" rx="216" fill="url(#bg)"/>
+
+  <circle cx="512" cy="500" r="240" stroke="#2A2A39" stroke-width="56"/>
+  <path d="M512 260
+           A240 240 0 1 1 321 647"
+        stroke="url(#ring)"
+        stroke-width="56"
+        stroke-linecap="round"/>
+
+  <rect x="420" y="660" width="44" height="112" rx="12" fill="url(#bars)"/>
+  <rect x="490" y="620" width="44" height="152" rx="12" fill="url(#bars)"/>
+  <rect x="560" y="576" width="44" height="196" rx="12" fill="url(#bars)"/>
+
+  <path d="M398 492L472 566L640 398"
+        stroke="#EEF3FF"
+        stroke-width="48"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
